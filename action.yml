@@ -7,6 +7,9 @@ inputs:
   message:
     description: "Text message to push message"
     default: "You are commited on repository"
+  channel-access-token:
+    description: "Channel access token"
+    required: true
 runs:
   using: 'node12'
   main: 'dist/index.js'

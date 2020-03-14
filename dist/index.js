@@ -17219,7 +17219,7 @@ const github = __webpack_require__(928)
 const line = __webpack_require__(326)
 const { buildReplyText } = __webpack_require__(151)
 
-const client = new line.Client()
+const client = new line.Client({ channelAccessToken: core.getInput('channel-access-token') })
 
 try {
   const userId = core.getInput('user-id')
