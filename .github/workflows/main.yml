@@ -10,4 +10,4 @@ jobs:
       with:
         user-id: ${{ secrets.USER_ID }}
         message: 'test'
-        channal-access-token: ${{ secrets.CHANNEL_ACCESS_TOKEN }}
+        channel-access-token: ${{ secrets.CHANNEL_ACCESS_TOKEN }}
