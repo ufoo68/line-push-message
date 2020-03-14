@@ -1,6 +1,29 @@
 {
   "dependencies": {
     "@actions/core": "^1.2.3",
-    "@actions/github": "^2.1.1"
-  }
+    "@actions/github": "^2.1.1",
+    "@line/bot-sdk": "^6.8.4",
+    "line-message-builder": "^1.1.1"
+  },
+  "name": "line-push-message",
+  "description": "LINE push message action using GitHub actions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ufoo68/line-push-message.git"
+  },
+  "keywords": [
+    "github-action"
+  ],
+  "author": "ufoo68 <mitarou.yuutarou@gmail.com> (https://qiita.com/ufoo68)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ufoo68/line-push-message/issues"
+  },
+  "homepage": "https://github.com/ufoo68/line-push-message#readme"
 }
