@@ -1,5 +1,8 @@
 name: 'LINE push message'
 description: 'LINE push message action using GitHub actions'
+branding:
+  icon: message-square  
+  color: green
 inputs:
   user-id:
     description: 'User ID to push message'
