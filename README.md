@@ -15,7 +15,7 @@ jobs:
     name: LINE push message
     steps:
     - name: Push LINE message
-      uses: ufoo68/line-push-message@v1.3
+      uses: ufoo68/line-push-message@v1.4
       with:
         user-id: ${{ secrets.USER_ID }}
         message: 'test'

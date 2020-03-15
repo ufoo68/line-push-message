@@ -1,5 +1,4 @@
 const core = require('@actions/core')
-const github = require('@actions/github')
 const line = require('@line/bot-sdk')
 const { buildReplyText } = require('line-message-builder')
 
