@@ -1,3 +1,5 @@
+name: LINE push message
+
 on: [push]
 
 jobs:

@@ -1,5 +1,9 @@
 # line-push-message
 
+<p align="left">
+  <a href="https://github.com/ufoo68/line-push-message"><img alt="GitHub Actions status" src="https://github.com/ufoo68/line-push-message/workflows/LINE%20push%20message/badge.svg"></a>
+</p>
+
 LINE push message action using GitHub actions
 
 ## Usage
