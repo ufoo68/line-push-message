@@ -2,7 +2,7 @@
   "dependencies": {
     "@actions/core": "^1.2.3",
     "@actions/github": "^2.1.1",
-    "@line/bot-sdk": "^6.8.4",
+    "@line/bot-sdk": "^7.0.0",
     "line-message-builder": "^1.1.1"
   },
   "name": "line-push-message",

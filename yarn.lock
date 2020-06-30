@@ -23,7 +23,7 @@
   dependencies:
     tunnel "0.0.6"
 
-"@line/bot-sdk@^6.8.2", "@line/bot-sdk@^6.8.4":
+"@line/bot-sdk@^6.8.2":
   version "6.8.4"
   resolved "https://registry.yarnpkg.com/@line/bot-sdk/-/bot-sdk-6.8.4.tgz#9262ff5989d48edba35c851f7401a6e26d83c32d"
   integrity sha512-ul0GT9CHW2A5K3xUi6BRuFSWZfePXcnArFFeDtf4wbLhVMZoO3yyslrEaDuNt4UiKYK1BxU09LvXNU7/ha4i9w==
@@ -32,6 +32,18 @@
     "@types/file-type" "^5.2.2"
     "@types/node" "^7.10.9"
     axios "^0.19.0"
+    body-parser "^1.19.0"
+    file-type "^7.7.1"
+
+"@line/bot-sdk@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@line/bot-sdk/-/bot-sdk-7.0.0.tgz#1fe53154024c829d3432088568c9597679cef473"
+  integrity sha512-piS9LUg/fyFFlSMP9OdnxtlAS0pcEkhABVCG2xVaZ2wlaSCfG8pMSAOrVsZQYMRQwS3p3QTEFwuVaXnN4vn7tw==
+  dependencies:
+    "@types/body-parser" "^1.19.0"
+    "@types/file-type" "^5.2.2"
+    "@types/node" "^12.12.47"
+    axios "^0.19.2"
     body-parser "^1.19.0"
     file-type "^7.7.1"
 
@@ -132,7 +144,7 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@types/body-parser@^1.17.1":
+"@types/body-parser@^1.17.1", "@types/body-parser@^1.19.0":
   version "1.19.0"
   resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.19.0.tgz#0685b3c47eb3006ffed117cdd55164b61f80538f"
   integrity sha512-W98JrE0j2K78swW4ukqMleo8R7h/pFETjM2DQ90MF6XK2i4LO4W3gQ71Lt4w3bfm2EvVSyWHplECvB5sK22yFQ==
@@ -159,6 +171,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.1.tgz#96f606f8cd67fb018847d9b61e93997dabdefc72"
   integrity sha512-E6M6N0blf/jiZx8Q3nb0vNaswQeEyn0XlupO+xN6DtJ6r6IT4nXrTry7zhIfYvFCl3/8Cu6WIysmUBKiqV0bqQ==
 
+"@types/node@^12.12.47":
+  version "12.12.47"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.47.tgz#5007b8866a2f9150de82335ca7e24dd1d59bdfb5"
+  integrity sha512-yzBInQFhdY8kaZmqoL2+3U5dSTMrKaYcb561VU+lDzAYvqt+2lojvBEy+hmpSNuXnPTx7m9+04CzWYOUqWME2A==
+
 "@types/node@^7.10.9":
   version "7.10.9"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-7.10.9.tgz#4343e3b009f8cf5e1ed685e36097b74b4101e880"
@@ -169,7 +186,7 @@ atob-lite@^2.0.0:
   resolved "https://registry.yarnpkg.com/atob-lite/-/atob-lite-2.0.0.tgz#0fef5ad46f1bd7a8502c65727f0367d5ee43d696"
   integrity sha1-D+9a1G8b16hQLGVyfwNn1e5D1pY=
 
-axios@^0.19.0:
+axios@^0.19.0, axios@^0.19.2:
   version "0.19.2"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
   integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
